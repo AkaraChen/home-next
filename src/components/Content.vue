@@ -1,5 +1,5 @@
 <template>
-    <p>I am a I'm able to use JavaScript / HTML / CSS / Python / Java to build wonderful sites.</p>
+    <p>I'm able to use JavaScript / HTML / CSS / Python / Java to build wonderful sites.</p>
     <p>I'm a open sourse enthusiast, and I'm pleased to share what I learn.
         All my works can be seen on <a href="https://github.com/akarachen" target="_blank">Github</a>, and here's <a
             href="https://blog.akr.moe" target="_blank">my learning note</a> (in Chinese)</p>
