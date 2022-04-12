@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: 'Archia';
-  font-display: swap
+  font-display: swap;
   src: url("./assets/font/archia.woff2");
 }
 
