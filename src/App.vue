@@ -55,6 +55,16 @@ body {
   margin: auto;
   border-radius: 16px;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #191919;
+  }
+
+  .container {
+    background-color: #232323;
+  }
+}
 </style>
 
 <script lang="ts" setup>

@@ -1,7 +1,7 @@
 <template>
     <div class="row">
         <div class="item">
-        <p class="count">1000+</p>
+            <p class="count">1000+</p>
             <div class="col">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24"
                     height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="item">
-        <p class="count">50k+</p>
+            <p class="count">50k+</p>
             <div class="col">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-text" width="24"
                     height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
@@ -32,10 +32,6 @@
         </div>
     </div>
 </template>
-
-<script lang="ts" setup>
-
-</script>
 
 <style lang="less">
 .row {
@@ -62,5 +58,13 @@
     margin-bottom: 5px;
     font-size: 1.75rem;
     font-family: var(--code-font);
+}
+
+@media (prefers-color-scheme: dark) {
+
+    .col,
+    .col * {
+        color: rgba(255, 255, 255, 0.8);
+    }
 }
 </style>

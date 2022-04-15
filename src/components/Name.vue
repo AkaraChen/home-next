@@ -27,7 +27,12 @@ h2 {
         color: transparent;
     }
 }
-</style>
 
-<script lang="ts" setup>
-</script>
+@media (prefers-color-scheme: dark) {
+
+    h1,
+    h2 {
+        color: rgba(255, 255, 255, 0.87);
+    }
+}
+</style>
