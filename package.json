@@ -1,21 +1,13 @@
 {
-  "name": "home-next",
-  "private": true,
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "axios": "^0.26.1",
-    "less": "^4.1.2",
-    "vue": "^3.2.25"
-  },
+  "name": "home-parcel",
+  "version": "1.0.0",
+  "license": "MIT",
   "devDependencies": {
-    "@vitejs/plugin-vue": "^2.3.0",
-    "typescript": "^4.5.4",
-    "vite": "^2.9.0",
-    "vue-tsc": "^0.29.8"
+    "@parcel/transformer-less": "2.4.1",
+    "parcel": "^2.4.1"
+  },
+  "scripts": {
+    "dev": "yarn parcel index.html --host 0.0.0.0",
+    "build": "yarn parcel build index.html"
   }
 }
