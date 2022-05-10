@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "license": "MIT",
   "devDependencies": {
-    "@parcel/transformer-less": "2.4.1",
+    "@parcel/transformer-less": "^2.5.0",
     "parcel": "^2.4.1"
   },
   "scripts": {
-    "dev": "yarn parcel index.html --host 0.0.0.0",
+    "dev": "yarn parcel index.html",
     "build": "yarn parcel build index.html"
-  }
+  },
+  "dependencies": {}
 }
