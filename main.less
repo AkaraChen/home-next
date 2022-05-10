@@ -7,11 +7,12 @@
 }
 
 :root {
-    --root-color: rgba(#ecf0f1, 0.95);
+    --root-color: rgba(#fff, 0.8);
     --text-color: #000;
     --title-font: 'Archia', sans-serif;
     --article-font: 'Outfit', sans-serif;
     --code-font: 'IBM Plex Mono', monospace;
+    --hover-color: #c0392b;
     font-size: calc(0.8em + 0.5vw);
     margin: 0;
     padding: 0;
@@ -38,8 +39,7 @@ body {
     }
 
     a {
-        background-color: white;
-        color: black !important;
+        background-color: var(--hover-color);
     }
 }
 
@@ -94,7 +94,7 @@ a {
         right: -0.1em;
         bottom: 0;
         transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
-        background-color: black;
+        background-color: var(--hover-color);
     }
 
     &:hover:after {
@@ -115,7 +115,7 @@ p+p {
 
         & .col {
             display: flex;
-            color: var(--text-color);
+            color: #7f8c8d;
             font-size: 1.1rem;
             align-items: center;
 
