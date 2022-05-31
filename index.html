@@ -2,82 +2,69 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AkaraChen</title>
-    <link rel="stylesheet" href="main.less">
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>19 岁，是前端</title>
 </head>
 
-<body>
-    <div class="container">
-        <h1>Hi there!</h1>
-        <h2>I'm <span class="me">AkaraChen</span>, a Web <span class="career">Developer</span> from China.</h2>
-        <p>I'm able to use JavaScript / HTML / CSS / Python / Java to build wonderful sites.</p>
-        <p>I'm a open sourse enthusiast, and I'm pleased to share what I learn.
-            All my works can be seen on <a href="https://github.com/akarachen" target="_blank">Github</a>, and here's <a
-                href="https://blog.akr.moe" target="_blank">my learning note</a> (in Chinese)</p>
-        <div class="row">
-            <div class="item">
-                <p class="count">1000+</p>
-                <div class="col">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24"
-                        height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path
-                            d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5">
-                        </path>
-                    </svg>
-                    Commits Per Year
-                </div>
-            </div>
-            <div class="item">
-                <p class="count">50k+</p>
-                <div class="col">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-text" width="24"
-                        height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
-                        <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path>
-                        <line x1="9" y1="9" x2="10" y2="9"></line>
-                        <line x1="9" y1="13" x2="15" y2="13"></line>
-                        <line x1="9" y1="17" x2="15" y2="17"></line>
-                    </svg>
-                    Blog Wordage
-                </div>
-            </div>
-        </div>
+<body class="max-w-2xl ma-a mt-24 font-sans lh-7 tracking-wider select-none">
+  <div class="mx-6 my-10">
+    <h1 class="text-4xl">19 岁，是前端</h1>
+    <div class="text-gray-600">
+      <p>有扎实的前端基础，熟练使用 HTML5, CSS3 进行页面布局, 熟练掌握 JavaScript 和 TypeScript 语言。</p>
+      <p>具备前端工程化能力，熟练使用 Node.js 脱离浏览器环境进行开发，掌握 cjs, es6 的模块封装，转换和兼容，熟练使用 npm, yarn, pnpm 进行依赖管理。</p>
+      <p>熟练掌握前端常用工具和组件库，如 Axios, Lodash, Unocss 等。</p>
+      <p>拥有前端架构能力，精通 Vue, 读过 Vue 源码，熟悉 Pinia, Vue-Router, VueUse 等工具。了解 React，并使用 Next.js 编写过全栈应用。</p>
+      <p>熟悉前后端分离的开发模式，了解 RESTful 接口风格进行数据请求，能够熟练掌握对接 Serverless 云函数。</p>
+      <p>掌握计算机基础技能，了解基本的数据结构和算法知识，了解密码学相关知识。</p>
+      <p>追求代码质量与设计，了解设计模式，遵守代码规范。掌握 OOP 和 FP 的思想。</p>
+      <p>有非 web 开发能力，熟悉 Python 并开发过爬虫，了解 Java, Go 语言。</p>
+      <p>了解服务器运维技能，熟悉 Linux/Unix 的基本操作和开发环境。</p>
+      <p>日常开发使用 Windows, 编辑器使用 VSCode 和 WebStorm。</p>
     </div>
-    <script src="assets/three.min.js"></script>
-    <script src="assets/vanta.clouds.min.js"></script>
-    <script src="assets/vanta.dots.min.js"></script>
-    <script>
-        if (screen.width > 1200) {
-            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                VANTA.DOTS({
-                    el: "html",
-                    mouseControls: false,
-                    touchControls: false,
-                    gyroControls: false,
-                    minHeight: 200.00,
-                    minWidth: 200.00,
-                    scale: 1.00,
-                    scaleMobile: 1.00
-                })
-            } else {
-                VANTA.CLOUDS({
-                    el: "html",
-                    mouseControls: false,
-                    touchControls: false,
-                    gyroControls: false,
-                    minHeight: 200.00,
-                    minWidth: 200.00
-                })
-            }
-        }
-    </script>
+    <div class="text-gray-600 opacity-80 mt-6">
+      <a href="//github.com/akarachen" target="_blank" class="decoration-none mr-3">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+          <path fill="none" d="M0 0h24v24H0z" />
+          <path
+            d="M5.883 18.653c-.3-.2-.558-.455-.86-.816a50.32 50.32 0 0 1-.466-.579c-.463-.575-.755-.84-1.057-.949a1 1 0 0 1 .676-1.883c.752.27 1.261.735 1.947 1.588-.094-.117.34.427.433.539.19.227.33.365.44.438.204.137.587.196 1.15.14.023-.382.094-.753.202-1.095C5.38 15.31 3.7 13.396 3.7 9.64c0-1.24.37-2.356 1.058-3.292-.218-.894-.185-1.975.302-3.192a1 1 0 0 1 .63-.582c.081-.024.127-.035.208-.047.803-.123 1.937.17 3.415 1.096A11.731 11.731 0 0 1 12 3.315c.912 0 1.818.104 2.684.308 1.477-.933 2.613-1.226 3.422-1.096.085.013.157.03.218.05a1 1 0 0 1 .616.58c.487 1.216.52 2.297.302 3.19.691.936 1.058 2.045 1.058 3.293 0 3.757-1.674 5.665-4.642 6.392.125.415.19.879.19 1.38a300.492 300.492 0 0 1-.012 2.716 1 1 0 0 1-.019 1.958c-1.139.228-1.983-.532-1.983-1.525l.002-.446.005-.705c.005-.708.007-1.338.007-1.998 0-.697-.183-1.152-.425-1.36-.661-.57-.326-1.655.54-1.752 2.967-.333 4.337-1.482 4.337-4.66 0-.955-.312-1.744-.913-2.404a1 1 0 0 1-.19-1.045c.166-.414.237-.957.096-1.614l-.01.003c-.491.139-1.11.44-1.858.949a1 1 0 0 1-.833.135A9.626 9.626 0 0 0 12 5.315c-.89 0-1.772.119-2.592.35a1 1 0 0 1-.83-.134c-.752-.507-1.374-.807-1.868-.947-.144.653-.073 1.194.092 1.607a1 1 0 0 1-.189 1.045C6.016 7.89 5.7 8.694 5.7 9.64c0 3.172 1.371 4.328 4.322 4.66.865.097 1.201 1.177.544 1.748-.192.168-.429.732-.429 1.364v3.15c0 .986-.835 1.725-1.96 1.528a1 1 0 0 1-.04-1.962v-.99c-.91.061-1.662-.088-2.254-.485z"
+            fill="rgba(55,65,81,1)" />
+        </svg>
+      </a>
+      <a href="//baidu.com" target="_blank" class="decoration-none mr-3">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+          <path fill="none" d="M0 0h24v24H0z" />
+          <path
+            d="M7.172 2.757L10.414 6h3.171l3.243-3.242a1 1 0 0 1 1.415 1.415l-1.829 1.827L18.5 6A3.5 3.5 0 0 1 22 9.5v8a3.5 3.5 0 0 1-3.5 3.5h-13A3.5 3.5 0 0 1 2 17.5v-8A3.5 3.5 0 0 1 5.5 6h2.085L5.757 4.171a1 1 0 0 1 1.415-1.415zM18.5 8h-13a1.5 1.5 0 0 0-1.493 1.356L4 9.5v8a1.5 1.5 0 0 0 1.356 1.493L5.5 19h13a1.5 1.5 0 0 0 1.493-1.356L20 17.5v-8A1.5 1.5 0 0 0 18.5 8zM8 11a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1zm8 0a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1z"
+            fill="rgba(52,72,94,1)" />
+        </svg>
+      </a>
+      <a href="mailto:akarachen@outlook.com" target="_blank" class="decoration-none mr-3">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+          <path fill="none" d="M0 0h24v24H0z" />
+          <path
+            d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z"
+            fill="rgba(52,72,94,1)" />
+        </svg>
+      </a>
+      <a href="//note.akr.moe" target="_blank" class="decoration-none mr-3">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+          <path fill="none" d="M0 0h24v24H0z" />
+          <path
+            d="M20.005 2C21.107 2 22 2.898 22 3.99v16.02c0 1.099-.893 1.99-1.995 1.99H4v-4H2v-2h2v-3H2v-2h2V8H2V6h2V2h16.005zM8 4H6v16h2V4zm12 0H10v16h10V4z"
+            fill="rgba(52,72,94,1)" />
+        </svg>
+      </a>
+      <a href="//blog.akr.moe" target="_blank" class="decoration-none mr-3">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M4.929 2.929l1.414 1.414A7.975 7.975 0 0 0 4 10c0 2.21.895 4.21 2.343 5.657L4.93 17.07A9.969 9.969 0 0 1 2 10a9.969 9.969 0 0 1 2.929-7.071zm14.142 0A9.969 9.969 0 0 1 22 10a9.969 9.969 0 0 1-2.929 7.071l-1.414-1.414A7.975 7.975 0 0 0 20 10c0-2.21-.895-4.21-2.343-5.657L19.07 2.93zM7.757 5.757l1.415 1.415A3.987 3.987 0 0 0 8 10c0 1.105.448 2.105 1.172 2.828l-1.415 1.415A5.981 5.981 0 0 1 6 10c0-1.657.672-3.157 1.757-4.243zm8.486 0A5.981 5.981 0 0 1 18 10a5.981 5.981 0 0 1-1.757 4.243l-1.415-1.415A3.987 3.987 0 0 0 16 10a3.987 3.987 0 0 0-1.172-2.828l1.415-1.415zM12 12a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-1 2h2v8h-2v-8z" fill="rgba(52,72,94,1)"/></svg>
+      </a>
+    </div>
+    <div class="text-sm opacity-50 my-4">
+      CC BY-NC-SA 4.0 2020-PRESENT © Akara Chen
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
 </body>
 
 </html>

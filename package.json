@@ -1,14 +1,19 @@
 {
-  "name": "home-parcel",
-  "version": "1.0.0",
-  "license": "MIT",
-  "devDependencies": {
-    "@parcel/transformer-less": "^2.5.0",
-    "parcel": "^2.4.1"
-  },
+  "name": "home",
+  "private": true,
+  "version": "0.0.0",
   "scripts": {
-    "dev": "yarn parcel index.html",
-    "build": "yarn parcel build index.html"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "dependencies": {}
+  "devDependencies": {
+    "@iconify-json/ri": "^1.1.2",
+    "@unocss/preset-icons": "^0.37.0",
+    "@unocss/preset-uno": "^0.37.0",
+    "@unocss/reset": "^0.37.0",
+    "unocss": "^0.37.0",
+    "vite": "^2.9.9",
+    "vite-plugin-windicss": "^1.8.4"
+  }
 }
